@@ -1,0 +1,7 @@
+sessionName: 'Automation test session'
+sessionDescription: 'Base Test'
+deviceOrientation: 'portrait'
+captureScreenshots: true
+deviceName: 'iPhone 6s Plus'
+platformName: 'iOS'
+platformVersion: '13.5.1'

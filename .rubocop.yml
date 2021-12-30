@@ -1,0 +1,7 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 2.6
+Metrics/MethodLength:
+  Max: 20
+Lint/EmptyBlock:
+  Enabled: false

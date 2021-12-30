@@ -1,0 +1,9 @@
+allure: --format AllureCucumber::CucumberFormatter --out reports/allure
+cucumber: --format pretty --publish-quiet
+default: -p allure -p cucumber --tags 'not @nok'
+android_local: -p default PLATFORM=android_local --tags 'not @ios_only' --exclude features/screens/ios
+android_browserstack: -p default PLATFORM=android_browserstack --tags 'not @ios_only' --exclude features/screens/ios
+android_kobiton: -p default PLATFORM=android_kobiton --tags 'not @ios_only' --exclude features/screens/ios
+ios_local: -p default PLATFORM=ios_local --tags 'not @android_only' --exclude features/screens/android
+ios_browserstack: -p default PLATFORM=ios_browserstack --tags 'not @android_only' --exclude features/screens/android
+ios_kobiton: -p default PLATFORM=ios_kobiton --tags 'not @android_only' --exclude features/screens/android

@@ -1,0 +1,12 @@
+commom_caps:
+  project: "Base Appium"
+  browserstack.debug: true
+  platformName: "Android"
+  automationName: "UiAutomator2"
+browser_caps:
+  -
+    device: "Samsung Galaxy S20"
+    os_version: "10.0"
+  -
+    device: "Samsung Galaxy S20 Plus"
+    os_version: "10.0"
